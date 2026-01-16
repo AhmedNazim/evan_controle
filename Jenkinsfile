@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'docker-agent' } // nom de ton agent déjà configuré
+    agent { label 'docker' } // nom de ton agent déjà configuré
 
     stages {
         stage('Checkout') {
