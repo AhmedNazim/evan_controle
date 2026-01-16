@@ -11,7 +11,7 @@ pipeline {
 
         stage('Lint Terraform') {
             steps {
-                    sh 'tflint .'
+                    sh 'tflint --chdir .'
                 }
             }
         
