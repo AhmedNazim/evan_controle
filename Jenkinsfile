@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/tonuser/ton-repo-terraform.git'
+                git branch: 'main', url: 'https://github.com/WillBero/evan_controle.git'
             }
         }
 

@@ -45,7 +45,3 @@ USER jenkins
 # -----------------------------
 # Définir le répertoire de travail
 # -----------------------------
-WORKDIR /workspace
-
-# Définir le point d'entrée (optionnel)
-ENTRYPOINT ["/bin/bash"]
