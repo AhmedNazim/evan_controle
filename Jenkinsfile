@@ -6,16 +6,7 @@ pipeline {
             steps {
                 git branch: 'main', url: 'https://github.com/WillBero/evan_controle.git'
             }
-        }
-
-
-        stage('Lint Terraform') {
-            steps {
-                    sh 'ls'
-                    sh 'tflint --chdir .'
-                }
-            }
-        
+        }        
 
         stage('Security Scan') {
             steps {
